@@ -10,8 +10,8 @@ theme: custom
 <!-- _paginate: false -->
 
 # Marp로 ppt 만들기
+<span style='color: blue'>작성자: 김동규</span>
 
-작성자: 김동규
 작성일자: 2024-08-13
 
 ---
