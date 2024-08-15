@@ -105,6 +105,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.mermaid {
+  color: blue;
+}
 
 /* 슬라이드별 클래스 */
 .centered {

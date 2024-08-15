@@ -1,6 +1,8 @@
 {
     "markdown.marp.themes": [
       "./themes/custom-theme.css"
-    ]
+    ],
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.htmlRendering": "always"
 }
   

@@ -10,8 +10,8 @@ theme: custom
 <!-- _paginate: false -->
 
 # Marp로 ppt 만들기
+<span style='color: blue'>작성자: 김동규</span>
 
-작성자: 김동규
 작성일자: 2024-08-13
 
 ---
@@ -92,7 +92,6 @@ settings.json 파일에 다음과 같이 코드를 작성합니다.
     "markdown.marp.themes": [
       "./themes/파일명"
     ]
-}
 ```
 
 css 파일의 경우, 상단에 /* @theme 테마이름 */를 입력하여
@@ -102,6 +101,32 @@ md파일에 theme: 테마이름 을 지정하면 css 파일을 읽을 수 있습
 # 파일 추출
 
 마지막으로 vscode 기준 상단 바에 오른쪽의 marp 로고를 클릭하여 export하면 ppt, HTML, pdf 등으로 추출할 수 있게 됩니다.
+
+---
+# 프로젝트 WBS
+
+<div class="mermaid">
+graph TD
+    A[프로젝트] --> B[기획 단계]
+    A --> C[개발 단계]
+    A --> D[테스트 단계]
+    B --> B1[요구사항 분석]
+    B --> B2[설계]
+    C --> C1[프론트엔드 개발]
+    C --> C2[백엔드 개발]
+    D --> D1[단위 테스트]
+    D --> D2[통합 테스트]
+</div>
+
+---
+
+# 앱 구조도
+<div class="mermaid">
+graph TD
+    A[사용자 인터페이스] --> B[비즈니스 로직]
+    B --> C[데이터 액세스 계층]
+    C --> D[데이터베이스]
+</div>
 
 ---
 
