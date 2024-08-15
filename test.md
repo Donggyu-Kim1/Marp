@@ -103,17 +103,9 @@ md파일에 theme: 테마이름 을 지정하면 css 파일을 읽을 수 있습
 마지막으로 vscode 기준 상단 바에 오른쪽의 marp 로고를 클릭하여 export하면 ppt, HTML, pdf 등으로 추출할 수 있게 됩니다.
 
 ---
-# mermaid
-```mermaid
-graph TD
-    A[시작] --> B[프로세스]
-    B --> C[종료]
-```
+# 프로젝트 WBS
 
----
-# WBS
-
-```mermaid
+<div class="mermaid">
 graph TD
     A[프로젝트] --> B[기획 단계]
     A --> C[개발 단계]
@@ -124,7 +116,18 @@ graph TD
     C --> C2[백엔드 개발]
     D --> D1[단위 테스트]
     D --> D2[통합 테스트]
-```
+</div>
 
 ---
+
+# 앱 구조도
+<div class="mermaid">
+graph TD
+    A[사용자 인터페이스] --> B[비즈니스 로직]
+    B --> C[데이터 액세스 계층]
+    C --> D[데이터베이스]
+</div>
+
+---
+
 # 감사합니다
