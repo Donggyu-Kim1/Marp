@@ -92,6 +92,7 @@ settings.json 파일에 다음과 같이 코드를 작성합니다.
     "markdown.marp.themes": [
       "./themes/파일명"
     ]
+}
 ```
 
 css 파일의 경우, 상단에 /* @theme 테마이름 */를 입력하여
